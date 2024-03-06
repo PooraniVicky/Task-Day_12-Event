@@ -1,0 +1,50 @@
+.container {
+    border: 2px solid black;
+    height: max-content;
+    margin-top: 15px;
+    padding: 10px;
+    background-image: url(./event.jpg);
+    background-size: cover;
+    max-height: 1000px;
+}
+
+.searchEvent {
+    display: flex;
+    margin: 20px;
+
+    button {
+
+        background-color: rgb(137, 151, 153);
+        background: rgb(185, 34, 195);
+        background: radial-gradient(circle, rgba(185, 34, 195, 0.8071603641456583) 0%, rgba(45, 241, 253, 0.9472163865546218) 90%);
+    }
+}
+
+.image {
+    image-rendering: auto;
+    border: 2px solid blue;
+    width: 20vw;
+    height: 20vh;
+    margin-left: 35px;
+    margin-top: 15px;
+
+}
+
+.card-title {
+    text-align: center;
+    border: 5px solid rgb(11, 11, 12);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.count {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+
+}
